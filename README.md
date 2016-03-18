@@ -55,7 +55,7 @@ If you want to create a debian package you can execute:
 ```
   sudo apt-get install devscripts
   git submodule update --init --recursive
-  debuild -us -uc
+  debuild -us -uc  [build文件夹外部执行]
 ```
 
 Debian packages will be created on parent directory.
